@@ -7,20 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1B387422F31498003C7B22 /* ViewModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387322F31498003C7B22 /* ViewModelFile.swift */; };
+		CE1B387622F31772003C7B22 /* FileBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387522F31772003C7B22 /* FileBase.swift */; };
+		CE1B387822F317D1003C7B22 /* Funcionalidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387722F317D1003C7B22 /* Funcionalidade.swift */; };
+		CE1B387A22F32216003C7B22 /* EntradaCarFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387922F32216003C7B22 /* EntradaCarFile.swift */; };
+		CE1B387C22F32C25003C7B22 /* EntradaExeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387B22F32C25003C7B22 /* EntradaExeFile.swift */; };
+		CE1B387E22F32E5F003C7B22 /* RetornoCarFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387D22F32E5F003C7B22 /* RetornoCarFile.swift */; };
+		CE1B388022F32F0C003C7B22 /* RetornoExeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B387F22F32F0C003C7B22 /* RetornoExeFile.swift */; };
+		CE1B388222F32F7D003C7B22 /* XamlFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388122F32F7D003C7B22 /* XamlFile.swift */; };
+		CE1B388422F3308D003C7B22 /* XamlCsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388322F3308D003C7B22 /* XamlCsFile.swift */; };
+		CE1B388622F3332B003C7B22 /* IProxyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388522F3332B003C7B22 /* IProxyFile.swift */; };
+		CE1B388822F33782003C7B22 /* ProxyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388722F33782003C7B22 /* ProxyFile.swift */; };
+		CE1B388A22F34B14003C7B22 /* Pagina.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388922F34B14003C7B22 /* Pagina.swift */; };
+		CE1B388C22F35039003C7B22 /* IHandlerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388B22F35039003C7B22 /* IHandlerFile.swift */; };
+		CE1B388E22F3537A003C7B22 /* HandlerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388D22F3537A003C7B22 /* HandlerFile.swift */; };
+		CE1B389022F35687003C7B22 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B388F22F35687003C7B22 /* Singleton.swift */; };
+		CE1B389222F38924003C7B22 /* Tipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B389122F38924003C7B22 /* Tipo.swift */; };
+		CE1B389422F47D30003C7B22 /* JsonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B389322F47D30003C7B22 /* JsonFile.swift */; };
+		CE1B3896230442E4003C7B22 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B3895230442E4003C7B22 /* Mensagem.swift */; };
 		CE4E862122EB9032000043BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E862022EB9032000043BC /* AppDelegate.swift */; };
-		CE4E862322EB9032000043BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E862222EB9032000043BC /* ViewController.swift */; };
+		CE4E862322EB9032000043BC /* ParametroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E862222EB9032000043BC /* ParametroController.swift */; };
 		CE4E862522EB9035000043BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4E862422EB9035000043BC /* Assets.xcassets */; };
 		CE4E862822EB9035000043BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4E862622EB9035000043BC /* Main.storyboard */; };
+		CE4E863222EB93E2000043BC /* ExecutaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E863122EB93E2000043BC /* ExecutaController.swift */; };
+		CE4E863622EF15DA000043BC /* PaginaItemList.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4E863522EF15DA000043BC /* PaginaItemList.xib */; };
+		CE4E863822EF166B000043BC /* PaginaItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E863722EF166B000043BC /* PaginaItemList.swift */; };
+		CE4E865422EF4BF8000043BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E865322EF4BF8000043BC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1B387322F31498003C7B22 /* ViewModelFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFile.swift; sourceTree = "<group>"; };
+		CE1B387522F31772003C7B22 /* FileBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBase.swift; sourceTree = "<group>"; };
+		CE1B387722F317D1003C7B22 /* Funcionalidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionalidade.swift; sourceTree = "<group>"; };
+		CE1B387922F32216003C7B22 /* EntradaCarFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaCarFile.swift; sourceTree = "<group>"; };
+		CE1B387B22F32C25003C7B22 /* EntradaExeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaExeFile.swift; sourceTree = "<group>"; };
+		CE1B387D22F32E5F003C7B22 /* RetornoCarFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetornoCarFile.swift; sourceTree = "<group>"; };
+		CE1B387F22F32F0C003C7B22 /* RetornoExeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetornoExeFile.swift; sourceTree = "<group>"; };
+		CE1B388122F32F7D003C7B22 /* XamlFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamlFile.swift; sourceTree = "<group>"; };
+		CE1B388322F3308D003C7B22 /* XamlCsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamlCsFile.swift; sourceTree = "<group>"; };
+		CE1B388522F3332B003C7B22 /* IProxyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IProxyFile.swift; sourceTree = "<group>"; };
+		CE1B388722F33782003C7B22 /* ProxyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyFile.swift; sourceTree = "<group>"; };
+		CE1B388922F34B14003C7B22 /* Pagina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagina.swift; sourceTree = "<group>"; };
+		CE1B388B22F35039003C7B22 /* IHandlerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHandlerFile.swift; sourceTree = "<group>"; };
+		CE1B388D22F3537A003C7B22 /* HandlerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerFile.swift; sourceTree = "<group>"; };
+		CE1B388F22F35687003C7B22 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		CE1B389122F38924003C7B22 /* Tipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipo.swift; sourceTree = "<group>"; };
+		CE1B389322F47D30003C7B22 /* JsonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonFile.swift; sourceTree = "<group>"; };
+		CE1B3895230442E4003C7B22 /* Mensagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
 		CE4E861D22EB9032000043BC /* Automatizador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automatizador.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E862022EB9032000043BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE4E862222EB9032000043BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4E862222EB9032000043BC /* ParametroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametroController.swift; sourceTree = "<group>"; };
 		CE4E862422EB9035000043BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4E862722EB9035000043BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE4E862922EB9035000043BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4E862A22EB9035000043BC /* Automatizador.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Automatizador.entitlements; sourceTree = "<group>"; };
+		CE4E863122EB93E2000043BC /* ExecutaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutaController.swift; sourceTree = "<group>"; };
+		CE4E863522EF15DA000043BC /* PaginaItemList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaginaItemList.xib; sourceTree = "<group>"; };
+		CE4E863722EF166B000043BC /* PaginaItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginaItemList.swift; sourceTree = "<group>"; };
+		CE4E865322EF4BF8000043BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +97,60 @@
 		CE4E861F22EB9032000043BC /* Automatizador */ = {
 			isa = PBXGroup;
 			children = (
+				CE4E863A22EF2CA5000043BC /* Model */,
+				CE4E863922EF2C9F000043BC /* Entrada */,
+				CE4E863022EB93A8000043BC /* Views */,
 				CE4E862022EB9032000043BC /* AppDelegate.swift */,
-				CE4E862222EB9032000043BC /* ViewController.swift */,
 				CE4E862422EB9035000043BC /* Assets.xcassets */,
 				CE4E862622EB9035000043BC /* Main.storyboard */,
 				CE4E862922EB9035000043BC /* Info.plist */,
 				CE4E862A22EB9035000043BC /* Automatizador.entitlements */,
 			);
 			path = Automatizador;
+			sourceTree = "<group>";
+		};
+		CE4E863022EB93A8000043BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E863122EB93E2000043BC /* ExecutaController.swift */,
+				CE4E862222EB9032000043BC /* ParametroController.swift */,
+				CE4E863522EF15DA000043BC /* PaginaItemList.xib */,
+				CE4E863722EF166B000043BC /* PaginaItemList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE4E863922EF2C9F000043BC /* Entrada */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E865322EF4BF8000043BC /* Constants.swift */,
+				CE1B387522F31772003C7B22 /* FileBase.swift */,
+				CE1B387322F31498003C7B22 /* ViewModelFile.swift */,
+				CE1B388122F32F7D003C7B22 /* XamlFile.swift */,
+				CE1B388322F3308D003C7B22 /* XamlCsFile.swift */,
+				CE1B387922F32216003C7B22 /* EntradaCarFile.swift */,
+				CE1B387B22F32C25003C7B22 /* EntradaExeFile.swift */,
+				CE1B387D22F32E5F003C7B22 /* RetornoCarFile.swift */,
+				CE1B387F22F32F0C003C7B22 /* RetornoExeFile.swift */,
+				CE1B388522F3332B003C7B22 /* IProxyFile.swift */,
+				CE1B388722F33782003C7B22 /* ProxyFile.swift */,
+				CE1B388B22F35039003C7B22 /* IHandlerFile.swift */,
+				CE1B388D22F3537A003C7B22 /* HandlerFile.swift */,
+				CE1B389322F47D30003C7B22 /* JsonFile.swift */,
+				CE1B3895230442E4003C7B22 /* Mensagem.swift */,
+			);
+			path = Entrada;
+			sourceTree = "<group>";
+		};
+		CE4E863A22EF2CA5000043BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B387722F317D1003C7B22 /* Funcionalidade.swift */,
+				CE1B388922F34B14003C7B22 /* Pagina.swift */,
+				CE1B388F22F35687003C7B22 /* Singleton.swift */,
+				CE1B389122F38924003C7B22 /* Tipo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4E863622EF15DA000043BC /* PaginaItemList.xib in Resources */,
 				CE4E862522EB9035000043BC /* Assets.xcassets in Resources */,
 				CE4E862822EB9035000043BC /* Main.storyboard in Resources */,
 			);
@@ -133,8 +224,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4E862322EB9032000043BC /* ViewController.swift in Sources */,
+				CE1B387A22F32216003C7B22 /* EntradaCarFile.swift in Sources */,
+				CE4E865422EF4BF8000043BC /* Constants.swift in Sources */,
+				CE1B389222F38924003C7B22 /* Tipo.swift in Sources */,
+				CE1B388C22F35039003C7B22 /* IHandlerFile.swift in Sources */,
+				CE1B388022F32F0C003C7B22 /* RetornoExeFile.swift in Sources */,
+				CE4E862322EB9032000043BC /* ParametroController.swift in Sources */,
+				CE1B387422F31498003C7B22 /* ViewModelFile.swift in Sources */,
+				CE1B387C22F32C25003C7B22 /* EntradaExeFile.swift in Sources */,
+				CE1B3896230442E4003C7B22 /* Mensagem.swift in Sources */,
+				CE1B388222F32F7D003C7B22 /* XamlFile.swift in Sources */,
+				CE1B387622F31772003C7B22 /* FileBase.swift in Sources */,
+				CE1B387E22F32E5F003C7B22 /* RetornoCarFile.swift in Sources */,
+				CE4E863222EB93E2000043BC /* ExecutaController.swift in Sources */,
+				CE1B387822F317D1003C7B22 /* Funcionalidade.swift in Sources */,
+				CE1B389422F47D30003C7B22 /* JsonFile.swift in Sources */,
+				CE1B388A22F34B14003C7B22 /* Pagina.swift in Sources */,
+				CE1B389022F35687003C7B22 /* Singleton.swift in Sources */,
+				CE4E863822EF166B000043BC /* PaginaItemList.swift in Sources */,
+				CE1B388E22F3537A003C7B22 /* HandlerFile.swift in Sources */,
+				CE1B388822F33782003C7B22 /* ProxyFile.swift in Sources */,
 				CE4E862122EB9032000043BC /* AppDelegate.swift in Sources */,
+				CE1B388422F3308D003C7B22 /* XamlCsFile.swift in Sources */,
+				CE1B388622F3332B003C7B22 /* IProxyFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
